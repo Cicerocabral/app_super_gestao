@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class ContatoController extends Controller
 {
-    public function contato(){
-        return 1 + 1;
+    public function Contato(){
+    return view('site.contato');
     }
 }
