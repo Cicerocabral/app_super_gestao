@@ -43,7 +43,7 @@ if (!condicao) {} //enquanto execcuta se o resultado for true
 @endunless
 --}}
 
-{{-- @isset($fornecedores)
+@isset($fornecedores)
     Fornecedor: {{ $fornecedores[0]['nome'] }}
     <br>
     Status: {{ $fornecedores[0]['status'] }}
@@ -54,8 +54,8 @@ if (!condicao) {} //enquanto execcuta se o resultado for true
             - Vazio
         @endempty
     @endisset
-@endisset --}}
+@endisset
 
-@empty($teste)
+{{-- @empty($teste)
     - Vazio
-@endempty
+@endempty --}}
